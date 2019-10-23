@@ -1,8 +1,80 @@
+/*//////////// Top Level Modifiers ///////////////////*/
 body {
 	display: flex;
 	flex-direction: column;
+	font-family: Lato;
+}
+
+header {
+	height: 720px;
+	width: 100%;
 }
 
 main {
-	flex-direction: row
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+}
+
+article {
+	flex: 2;
+	overflow-y: auto;
+}
+
+aside {
+	flex: 1;
+	overflow-y: auto;
+}
+
+p {
+	margin-bottom: 30px;
+}
+
+/*This section creates the NAV bar*/
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
+/*//////////// Classes ///////////////////*/
+.banner {
+	width: 100%
+}
+
+
+/*//////////// IDs ///////////////////*/
+#profile {
+	width: 300px;
+	display: block;
+	margin: auto;
+    border: 2px solid white;
+	border-radius: 50%;
+}
+
+
+ /*  Testing Zone */
+
+
 }
