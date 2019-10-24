@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="behavior.js"></script>
   </head>
 
   <body class="works_on_smartphone">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
+
     <header>
       
-      <!-- <div class="social">
-        <ul>
-          <li><a href=""><i class="fab fa-github-square"></i></a></li>
-          <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
-          <li><a href=""><i class="fab fa-instagram"></i></a></li>
-        </ul>
-      </div> -->
+      <div class="right">
+        <div class="fb-share-button" data-href="http://18.207.156.131/index.html" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F18.207.156.131%2Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a> </div>
+
+       <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
 
       <img src="https://i.imgur.com/MJ05kvl.jpg" class="banner">
 
@@ -39,7 +40,7 @@
         <h2 align="center">Hi I'm Tim</h2>
           <p>Hey there Holberton, I'm excited to be taking the next step towards a career in engineering.</p>
 
-      		<p>I am originally from Michigan USA, and grew up in Ypsilanti a small town about half an hour's drive from Detroit. More recently I've called Oakland California home. The header image at the top of the page is actually of Lake Merritt the estuary in the heart of Oakland. The lake is the oldest bird sanctuary in America, and is a crown jewel in the town. On Sundays hundreds of families come down to the lake and picnic in the park. There is food, live music, street preformers, tons of classic cars and tricked out scrapper bicycles. It's everyone's backyard and such a great place to see the whole community enjoying the weekend!</p>
+      		<p>I am originally from Michigan USA, and grew up in Ypsilanti a small town about half an hour's drive from Detroit. More recently I've called Oakland California home. The header image at the top of the page is actually of Lake Merritt the estuary in the heart of Oakland. The lake is the oldest <a href="https://en.wikipedia.org/wiki/Lake_Merritt">bird sanctuary in America</a>, and is a crown jewel in the town. On Sundays hundreds of families come down to the lake and picnic in the park. There is food, live music, street preformers, tons of classic cars and tricked out scrapper bicycles. It's everyone's backyard and such a great place to see the whole community enjoying the weekend!</p>
 
           <img src="https://i.imgur.com/oe7396G.jpg" class="small" id="smart_thumbnail">
 
@@ -49,13 +50,22 @@
           <img src="https://i.imgur.com/ZXASrg6.jpg" class="small">
       	
   		  <h4>A tad more on me...</h4>
-      		<p>I love cycling, baking treats, brewing beer, and spending time in nature. I'll share a bit more about these passions with you through this project website. Have a look around and let me know what you think in the discus comments. 
-
-          Finally I am excited to be applying to Holberton here in Colombia and the opportunity to take on another big adventure. See you around!</p>
+      		<p>I love cycling, baking treats, brewing beer, and spending time in nature. I'll share a bit more about these passions with you through this project website. Have a look around and let me know what you think in the discus comments or connect with me on social media. See you around!</p>
       </article>
 
       <aside>
-      	<p>"placeholder to add comment thread later".</p>
+      	 <div id="disqus_thread"></div>
+          <script>
+          
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://tmcmac.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            
       </aside>
     </main>
   </body>
